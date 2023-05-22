@@ -1,0 +1,23 @@
+---
+student: 
+- name: srinivas 
+  phone: 0000000000
+  address: 
+      doorno: 45
+      street: 4
+      pincode: 518360
+
+- name: sridhar 
+  phone: 1111111111
+  address: 
+      doorno: 45
+      street: 4
+      pincode: 518360
+
+- name: sai 
+  phone: 00000000000
+  address: 
+      doorno: 45
+      street: 4
+      pincode: 518360
+
