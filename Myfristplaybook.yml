@@ -9,7 +9,6 @@
     apt: 
        name: apache2
        state: absent
-
   - name: i want install tree on ubuntu ansible nodes
     apt:
      name: tree
