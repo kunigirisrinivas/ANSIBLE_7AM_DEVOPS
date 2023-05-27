@@ -8,8 +8,9 @@
       state: present
   when: ansible_os_family =="Debian" 
 
+
 - name: install java on redhat
-     ansible.builtin.dnf:
+  ansible.builtin.dnf:
        name: "{{myjavaonredhat}}"
        state: present
   when:  ansible_os_family =="RedHat" 
