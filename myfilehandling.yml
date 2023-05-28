@@ -1,0 +1,9 @@
+--- 
+- hosts: 172.31.6.58
+  become: yes
+  tasks:
+  - inculde: myfile.yml
+  - name: i want to install webserver 
+    apt:
+      name: webserver
+      state: present     

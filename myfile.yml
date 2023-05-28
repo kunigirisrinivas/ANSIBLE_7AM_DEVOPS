@@ -1,0 +1,5 @@
+---
+ - name: i want to create mytags file
+   file: 
+    path: /home/ubuntu/mytagsfile
+    state: touch
