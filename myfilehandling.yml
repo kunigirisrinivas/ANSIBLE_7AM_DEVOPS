@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - include: myfile.yml
-  - name: i want to install  mywebserver 
+  - name: i want to install  tree
     apt:
-      name: mywebserver
+      name: tree
       state: present     
