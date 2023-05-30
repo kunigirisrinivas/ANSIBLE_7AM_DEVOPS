@@ -14,4 +14,4 @@
   - name: copy dyno files into nodes
     template:
         src: mydynoindex.j2
-        dest:
+        dest: /var/www/html/index.html
