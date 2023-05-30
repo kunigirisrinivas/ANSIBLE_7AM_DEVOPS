@@ -22,7 +22,7 @@
          state: restart
   - name: downlode internet files
     get_url:
-      url: https://mirrors.tuna.tsinghua.edu.cn/jenkins/windows-stable/2.387.3/jenkins.msi
-      dest: /home/ubuntu/jenkins.msi
-      force_basic_auth: yes
+         url: https://mirrors.tuna.tsinghua.edu.cn/jenkins/windows-stable/2.387.3/jenkins.msi
+         dest: /home/ubuntu/jenkins.msi
+         force_basic_auth: yes
  
