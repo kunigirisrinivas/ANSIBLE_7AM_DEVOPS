@@ -15,3 +15,8 @@
     template:
         src: mydynoindex.j2
         dest: /var/www/html/index.html
+  handlers: 
+  - name: restartwebserver
+    service: 
+         name: apache2
+         state: present
