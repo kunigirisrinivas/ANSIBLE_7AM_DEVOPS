@@ -19,7 +19,7 @@
   - name: restartwebserver
     service: 
          name: apache2
-         state: present
+         state: restart
   
   - name: downlode internet files
     get_url:
