@@ -1,5 +1,5 @@
 ---
-hosts: 172.31.39.222
+hosts: myappserver
 become:
 roles:
 - {roles: mytomrole, when: ansible_os_family=="Debian" }
